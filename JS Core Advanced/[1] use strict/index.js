@@ -1,1 +1,10 @@
-console.log("privet");
+// Вариант 4
+
+// Напишите функцию, которая принимает
+// массив и возвращает true, если в массиве
+// есть дубликаты, и false, если нет.
+// Используйте строгий режим
+
+"use strict";
+
+const hasDublicates = (arr) => new Set(arr).size !== arr.length;
